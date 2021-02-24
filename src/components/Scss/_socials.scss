@@ -1,0 +1,30 @@
+.socials {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+
+  .socials__wrapper {
+    .socials__links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2.4rem 1.2rem;
+
+      a {
+        color: #717cb4;
+        &:hover {
+          color: #89ddff;
+        }
+        .github {
+          animation: slideInTwo 1.4s ease-in-out forwards;
+        }
+        .linkedin {
+          margin-top: 2rem;
+
+          animation: slideInTwo 1.6s ease-in-out forwards;
+        }
+      }
+    }
+  }
+}

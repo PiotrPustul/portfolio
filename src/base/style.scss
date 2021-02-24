@@ -1,0 +1,13 @@
+@import "./reset";
+@import "./variables";
+@import "./base";
+
+@import "../components/Scss/header";
+@import "../components/Scss/_navList";
+@import "../components/Scss/_mobileNav";
+@import "../components/Scss/socials";
+
+@import "../pages/Scss/homePage";
+@import "../pages/Scss/aboutPage";
+@import "../pages/Scss/projectsPage";
+@import "../pages/Scss/contactPage";
