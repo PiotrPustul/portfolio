@@ -58,22 +58,21 @@
     align-items: flex-start;
 
     @media (min-width: 992px) {
-      width: 100vw;
-      height: 100vh;
-
-      background-color: purple;
-
-      position: absolute;
-      margin: auto;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 2;
+      width: 50%;
+      height: 30%;
     }
 
     .contact__form-message {
       margin-bottom: 0.5rem;
+
+      @media (min-width: 768px) {
+        font-size: 2.1rem;
+      }
+
+      @media (min-width: 992px) {
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+      }
     }
 
     .contact__form-btn {
@@ -82,10 +81,26 @@
 
       .fa-long-arrow-alt-left {
         color: #717cb4;
+
+        @media (min-width: 768px) {
+          font-size: 2.1rem;
+        }
+
+        @media (min-width: 992px) {
+          font-size: 1.8rem;
+        }
       }
 
       .contact__hide-message {
         text-decoration: underline;
+
+        @media (min-width: 768px) {
+          font-size: 2.1rem;
+        }
+
+        @media (min-width: 992px) {
+          font-size: 1.8rem;
+        }
       }
     }
   }
@@ -118,8 +133,8 @@
 
     @media (min-width: 992px) {
       width: 50%;
-      margin: 0;
 
+      margin: 0;
       padding: 0 10%;
 
       display: flex;

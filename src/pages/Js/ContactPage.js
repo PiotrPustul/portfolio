@@ -25,14 +25,15 @@ const ContactPage = () => {
   }
 
 
-  const showMessage = (<div className="contact__show-message">
-    <p className="contact__form-message">Thank you!</p>
-    <p className="contact__form-message">Your form submission has been received.</p>
-    <button className="contact__form-btn" onClick={hideMessage}>
-      <span className="fas fa-long-arrow-alt-left"></span>
-      <span className="contact__hide-message"> Go back to the site</span>
-    </button>
-  </div>
+  const showMessage = (
+    <div className="contact__show-message">
+      <p className="contact__form-message">Thank you!</p>
+      <p className="contact__form-message">Your form submission has been received.</p>
+      <button className="contact__form-btn" onClick={hideMessage}>
+        <span className="fas fa-long-arrow-alt-left"></span>
+        <span className="contact__hide-message"> Go back to the site</span>
+      </button>
+    </div>
   )
 
   return (
