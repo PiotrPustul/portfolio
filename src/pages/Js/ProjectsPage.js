@@ -25,7 +25,7 @@ const ProjectsPage = () => {
       heading: "Portfolio",
       description: "The page you are currently on. I have posted some information about me along with my projects. I hope you like it.",
       githubLink: "https://github.com/pepe199111/Piotr-Pustul-Portfolio",
-      liveLink: "https://github.com/pepe199111/book_table_app_react",
+      liveLink: "https://pepe199111.github.io/Piotr-Pustul-Portfolio/#/",
     },
   ];
 
