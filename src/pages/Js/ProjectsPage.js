@@ -10,13 +10,13 @@ const ProjectsPage = () => {
       img: imgRestaurant,
       heading: "Restaurant Page",
       description: "The application allows you to book a table in a restaurant, with the additional function of choosing exactly the one that interests us, not counting on luck that the host will choose the best for us.",
-      githubLink: "https://github.com/pepe199111/book_table_app_react",
-      liveLink: "https://github.com/pepe199111/book_table_app_react",
+      githubLink: "https://github.com/pepe199111/restaurant-reservation/tree/main/restaurant",
+      liveLink: "https://pepe199111.github.io/restaurant-reservation/#/",
     },
     {
       img: imgPlanner,
       heading: "Plan your meal",
-      description: "This is an application that allows us to plan meals for a given day and week. This is my first project that I worked on together with others programmers, during the course at Coders Lab school, the project was conducted using the Scrum method.",
+      description: "This is an application that allows us to plan meals for a given day and week. This is my first project that I worked on together with others programmers, during the course at Coders Lab school, the project was conducted using the Scrum method and JSON server.",
       githubLink: "https://github.com/pepe199111/Nutrition",
       liveLink: "https://pepe199111.github.io/Nutrition/#/",
     },
@@ -24,7 +24,7 @@ const ProjectsPage = () => {
       img: imgPortfolio,
       heading: "Portfolio",
       description: "The page you are currently on. I have posted some information about me along with my projects. I hope you like it.",
-      githubLink: "https://github.com/pepe199111/book_table_app_react",
+      githubLink: "https://github.com/pepe199111/Piotr-Pustul-Portfolio",
       liveLink: "https://github.com/pepe199111/book_table_app_react",
     },
   ];
@@ -32,62 +32,55 @@ const ProjectsPage = () => {
   const [x, setX] = useState(0);
 
   const goLeft = () => {
-    console.log(x);
     x === 0 ? setX(-100 * (projects.length - 1)) : setX(x + 100);
   };
 
   const goRight = () => {
-    console.log(x);
     x === -100 * (projects.length - 1) ? setX(0) : setX(x - 100);
   };
 
-  const show = projects.map(project => {
+  const showProjects = projects.map(project => {
     return (
-      <div className="projects-wrapper" style={{ transform: `translateX(${x}%)` }}>
-
-        <div className="projects__img-wrapper">
-          <img key={project.img} className="projects__img" src={project.img} alt={project.heading}
+      <div key={project.heading} className="projects__wrapper" style={{ transform: `translateX(${x}%)` }}>
+        <div className="projects__img-container">
+          <img className="projects__img" src={project.img} alt={project.heading}
           />
         </div>
         <div className="projects__content">
           <h2 className="projects__content-heading">
             {project.heading}</h2>
-          <p key={project.description} className="projects__content-paragraphs">
+          <p className="projects__content-paragraphs">
             {project.description}
           </p>
           <div className="projects__content-buttons">
             <button className="projects-btn">
               <a
-                key={project.githubLink}
                 href={project.githubLink}
                 target="_blank"
-                rel="noreferrer">Code Table</a>
+                rel="noreferrer">Code</a>
             </button>
             <button className="projects-btn">
               <a
-                key={project.liveLink}
                 href={project.liveLink}
                 target="_blank"
                 rel="noreferrer"
-              >Live Table
+              >Live
               </a>
             </button>
           </div>
         </div>
-      </div>
-    )
+      </div>)
   })
 
   return (
     <div className="projects">
-      <div className="arrow-left" onClick={goLeft}>
-        <span class="fas fa-arrow-left"></span>
+      {showProjects}
+      <div className="arrow-left" >
+        <span className="fas fa-arrow-left" onClick={goLeft}></span>
       </div>
       <div className="arrow-right">
-        <span class="fas fa-arrow-right" onClick={goRight}></span>
+        <span className="fas fa-arrow-right" onClick={goRight}></span>
       </div>
-
-      {show}
     </div>
   )
 }

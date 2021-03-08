@@ -21,9 +21,9 @@ const MobileNav = () => {
 
   const showNavBtn = (
     navBtnActive ?
-      <span class="fas fa-times" onClick={handleClick}></span>
+      <span className="fas fa-times" onClick={handleClick}></span>
       :
-      <span class="fas fa-bars" onClick={handleClick}></span>
+      <span className="fas fa-bars" onClick={handleClick}></span>
   )
 
   const showMobileNav = () => {
@@ -36,7 +36,6 @@ const MobileNav = () => {
 
   return (
     <>
-      {/* {screenWidth > 767 ? null : */}
       <nav className="mobile-nav">
         {showMobileNav()}
         {navBtnActive && <NavList
@@ -46,7 +45,6 @@ const MobileNav = () => {
         }
         {navBtnActive && <Socials />}
       </nav>
-      {/* } */}
     </>
   )
 }

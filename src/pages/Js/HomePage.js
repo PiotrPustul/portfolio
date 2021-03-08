@@ -4,7 +4,7 @@ import {
   NavLink as Link
 } from "react-router-dom";
 
-import profile from '../../static/images/profile.png';
+import homeProfile from '../../static/images/profile.png';
 
 
 const HomePage = () => {
@@ -12,13 +12,13 @@ const HomePage = () => {
     <div className="home">
       <div className="home__context">
         <h1 className="home__heading">Hello, <br /> It's Piotr here!</h1>
-        <Link to="/contact">
-          <li className="home__heading-link">Get in touch</li>
+        <Link to="/contact" className="home__heading-linkk">
+          <span className="home__heading-link">Get in touch</span>
         </Link>
       </div>
-      {/* <div className="home__img-container">
-        <img src={profile} alt="profile img" className="home-img" />
-      </div> */}
+      <div className="home__img-container">
+        <img src={homeProfile} alt="profile img" className="home-img" />
+      </div>
     </div>
   )
 }

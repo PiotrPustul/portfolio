@@ -24,7 +24,6 @@ const ContactPage = () => {
     setEmailIsSend({ emailIsSend: false })
   }
 
-
   const showMessage = (
     <div className="contact__show-message">
       <p className="contact__form-message">Thank you!</p>
@@ -58,21 +57,18 @@ const ContactPage = () => {
           <input
             name="name"
             type="text"
-          // onChange={formValid}
           />
 
           <label className="contact-label">Email Address </label>
           <input
             name="email"
             type="email"
-          // onChange={formValid}
           />
 
           <label className="contact-label">Your Message</label>
           <textarea
             className="form__textarea"
             name="message" type="text"
-          // onChange={formValid}
           />
 
           <div className="contact__button-wrapper">
