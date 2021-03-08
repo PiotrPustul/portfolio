@@ -5,11 +5,11 @@
     "main.js.map": "/Piotr-Pustul-Portfolio/static/js/main.68b3c267.chunk.js.map",
     "runtime-main.js": "/Piotr-Pustul-Portfolio/static/js/runtime-main.29820d35.js",
     "runtime-main.js.map": "/Piotr-Pustul-Portfolio/static/js/runtime-main.29820d35.js.map",
-    "static/js/2.304ee206.chunk.js": "/Piotr-Pustul-Portfolio/static/js/2.304ee206.chunk.js",
-    "static/js/2.304ee206.chunk.js.map": "/Piotr-Pustul-Portfolio/static/js/2.304ee206.chunk.js.map",
+    "static/js/2.54b90324.chunk.js": "/Piotr-Pustul-Portfolio/static/js/2.54b90324.chunk.js",
+    "static/js/2.54b90324.chunk.js.map": "/Piotr-Pustul-Portfolio/static/js/2.54b90324.chunk.js.map",
     "index.html": "/Piotr-Pustul-Portfolio/index.html",
     "static/css/main.7e217fb2.chunk.css.map": "/Piotr-Pustul-Portfolio/static/css/main.7e217fb2.chunk.css.map",
-    "static/js/2.304ee206.chunk.js.LICENSE.txt": "/Piotr-Pustul-Portfolio/static/js/2.304ee206.chunk.js.LICENSE.txt",
+    "static/js/2.54b90324.chunk.js.LICENSE.txt": "/Piotr-Pustul-Portfolio/static/js/2.54b90324.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/Piotr-Pustul-Portfolio/static/media/bookATable.64cce2e6.png",
     "static/media/planYourMeal.b7c92cdd.png": "/Piotr-Pustul-Portfolio/static/media/planYourMeal.b7c92cdd.png",
     "static/media/portfolio.43660cd4.png": "/Piotr-Pustul-Portfolio/static/media/portfolio.43660cd4.png",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.29820d35.js",
-    "static/js/2.304ee206.chunk.js",
+    "static/js/2.54b90324.chunk.js",
     "static/css/main.7e217fb2.chunk.css",
     "static/js/main.68b3c267.chunk.js"
   ]
