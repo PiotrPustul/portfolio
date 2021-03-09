@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Piotr-Pustul-Portfolio/static/css/main.7e217fb2.chunk.css",
-    "main.js": "/Piotr-Pustul-Portfolio/static/js/main.16683d1c.chunk.js",
-    "main.js.map": "/Piotr-Pustul-Portfolio/static/js/main.16683d1c.chunk.js.map",
-    "runtime-main.js": "/Piotr-Pustul-Portfolio/static/js/runtime-main.29820d35.js",
-    "runtime-main.js.map": "/Piotr-Pustul-Portfolio/static/js/runtime-main.29820d35.js.map",
-    "static/js/2.54b90324.chunk.js": "/Piotr-Pustul-Portfolio/static/js/2.54b90324.chunk.js",
-    "static/js/2.54b90324.chunk.js.map": "/Piotr-Pustul-Portfolio/static/js/2.54b90324.chunk.js.map",
-    "index.html": "/Piotr-Pustul-Portfolio/index.html",
-    "static/css/main.7e217fb2.chunk.css.map": "/Piotr-Pustul-Portfolio/static/css/main.7e217fb2.chunk.css.map",
-    "static/js/2.54b90324.chunk.js.LICENSE.txt": "/Piotr-Pustul-Portfolio/static/js/2.54b90324.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/Piotr-Pustul-Portfolio/static/media/bookATable.64cce2e6.png",
-    "static/media/planYourMeal.b7c92cdd.png": "/Piotr-Pustul-Portfolio/static/media/planYourMeal.b7c92cdd.png",
-    "static/media/portfolio.43660cd4.png": "/Piotr-Pustul-Portfolio/static/media/portfolio.43660cd4.png",
-    "static/media/profile.7d513b25.png": "/Piotr-Pustul-Portfolio/static/media/profile.7d513b25.png"
+    "main.css": "/portfolio/static/css/main.0112ee46.chunk.css",
+    "main.js": "/portfolio/static/js/main.16683d1c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.16683d1c.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/js/2.54b90324.chunk.js": "/portfolio/static/js/2.54b90324.chunk.js",
+    "static/js/2.54b90324.chunk.js.map": "/portfolio/static/js/2.54b90324.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.0112ee46.chunk.css.map": "/portfolio/static/css/main.0112ee46.chunk.css.map",
+    "static/js/2.54b90324.chunk.js.LICENSE.txt": "/portfolio/static/js/2.54b90324.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/portfolio/static/media/bookATable.64cce2e6.png",
+    "static/media/planYourMeal.b7c92cdd.png": "/portfolio/static/media/planYourMeal.b7c92cdd.png",
+    "static/media/portfolio.43660cd4.png": "/portfolio/static/media/portfolio.43660cd4.png",
+    "static/media/profile.7d513b25.png": "/portfolio/static/media/profile.7d513b25.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.29820d35.js",
+    "static/js/runtime-main.a9f76519.js",
     "static/js/2.54b90324.chunk.js",
-    "static/css/main.7e217fb2.chunk.css",
+    "static/css/main.0112ee46.chunk.css",
     "static/js/main.16683d1c.chunk.js"
   ]
 }
