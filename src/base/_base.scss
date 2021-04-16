@@ -1,7 +1,12 @@
+.wrapper {
+  background-color: $color-background;
+}
+
 @keyframes slideUp {
   0% {
     transform: translateY(300px);
   }
+
   100% {
     transform: translateY(0px);
   }
@@ -11,6 +16,7 @@
   0% {
     transform: translateY(-300px);
   }
+
   100% {
     transform: translateY(0px);
   }
@@ -20,25 +26,29 @@
   0% {
     transform: translateX(-500px) scale(0.2);
   }
+
   100% {
     transform: translateX(0px) scale(1);
   }
 }
+
 @keyframes slideInLeftTwo {
   0% {
     transform: translateX(-1000px);
   }
+
   100% {
     transform: translateX(0px);
   }
 }
 
-@keyframes slideInRightOne {
+@keyframes slideScale {
   0% {
-    transform: translateX(500px) scale(0.2);
+    transform: scale(0.4);
   }
+
   100% {
-    transform: translateX(0px) scale(1);
+    transform: scale(1);
   }
 }
 
@@ -46,6 +56,7 @@
   0% {
     transform: translateX(1000px);
   }
+
   100% {
     transform: translateX(0px);
   }
@@ -55,6 +66,7 @@
   0% {
     transform: translateX(-1400px);
   }
+
   100% {
     transform: translateX(0px);
   }

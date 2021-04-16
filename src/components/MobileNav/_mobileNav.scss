@@ -9,17 +9,25 @@
   position: absolute;
   top: 0%;
   right: 0;
-  z-index: 4;
+  z-index: 100;
 }
 
 .mobile-nav {
   .fa-bars {
     @include mobileBtns;
-    color: #89ddff;
+    color: $color-border;
+
+    @media(min-width: 991px) {
+      display: none;
+    }
   }
 
   .fa-times {
     @include mobileBtns;
-    color: #717cb4;
+    color: $color-heading;
+
+    @media(min-width: 991px) {
+      display: none;
+    }
   }
 }

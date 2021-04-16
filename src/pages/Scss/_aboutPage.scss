@@ -29,7 +29,6 @@
   }
 
   .about__me {
-    animation: slideInLeftOne 0.8s ease-in-out forwards;
     margin-top: 8rem;
     padding: 2.4rem;
 
@@ -54,7 +53,7 @@
     }
 
     .about__heading {
-      color: #89ddff;
+      color: $color-border;
       font-size: 3.6rem;
       margin-bottom: 2.4rem;
 
@@ -72,8 +71,8 @@
       }
     }
 
-    .about__paragraphs {
-      color: #717cb4;
+    .about__paragraph {
+      color: $color-heading;
       margin-bottom: 1rem;
       line-height: 1.4;
 

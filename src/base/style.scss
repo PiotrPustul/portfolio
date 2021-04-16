@@ -2,11 +2,19 @@
 @import "./variables";
 @import "./base";
 
-@import "../components/Scss/header";
-@import "../components/Scss/_navList";
-@import "../components/Scss/_mobileNav";
-@import "../components/Scss/socials";
-@import "../components/Scss/skills";
+@import "../components/Backdrop/backdrop";
+@import "../components/Button/button";
+@import "../components/Header/header";
+@import "../components/Navigation/navList";
+@import "../components/Navigation/navItem";
+@import "../components/MobileNav/mobileNav";
+@import "../components/Socials/socials";
+@import "../components/Skills/skills";
+@import "../components/Contact/contact-form/contactForm";
+@import "../components/Contact/contact-description/contactDescription";
+@import "../components/Contact/email-message/emailMessage";
+@import "../components/Projects/Project/project";
+@import "../components/Projects/ProjectArrows/arrows";
 
 @import "../pages/Scss/homePage";
 @import "../pages/Scss/aboutPage";

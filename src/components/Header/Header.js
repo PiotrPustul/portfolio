@@ -1,7 +1,7 @@
 import React from 'react';
 
-import NavList from '../../components/Js/NavList';
-import Socials from './Socials';
+import NavList from '../Navigation/NavList';
+import Socials from '../Socials/Socials';
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <NavList />
       <Socials />
     </div>
-  )
-}
+  );
+};
 
 export default Header;

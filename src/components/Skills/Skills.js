@@ -36,7 +36,7 @@ const Skills = () => {
         <div className="skills__section section-backend">
           <p className="skills__paragraphs">
             I am constantly learning new technologies and I never limit myself to one solution, that's why I took courses on the Udemy platform, where I learned the basics of the backend.
-        </p>
+          </p>
           <div className="skills__logos-wrapper">
             <Icon className="skills-icon icon-node" icon={nodeIcon} />
             <Icon className="skills-icon icon-mysql" icon={mysqlIcon} />

@@ -1,0 +1,53 @@
+.nav__list-item {
+   background-color: $color-background;
+   border: 2px solid $color-heading;
+   color: $color-heading;
+   font-weight: bold;
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   padding: 1.5rem 2rem;
+   text-decoration: none;
+   z-index: 30;
+
+   @media (min-width: 992px) {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      display: block;
+      font-size: 1.8rem;
+      margin: 1rem 2rem;
+      margin-left: 1rem;
+      padding: 1rem 0.5rem;
+      position: relative;
+
+      &:hover {
+         color: $color-border;
+      }
+   }
+
+   &:nth-child(1) {
+      animation: slideInLeftTwo 0.6s ease-in-out forwards;
+   }
+
+   &:nth-child(2) {
+      animation: slideInLeftOne 0.8s ease-in-out forwards;
+   }
+
+   &:nth-child(3) {
+      animation: slideInLeftOne 1s ease-in-out forwards;
+   }
+
+   &:nth-child(4) {
+      animation: slideInLeftOne 1.2s ease-in-out forwards;
+   }
+}
+
+.selected {
+   border: 2px solid $color-border;
+   color: $color-border;
+
+   @media(min-width: 992px) {
+      border: none;
+      border-bottom: 2px solid $color-border;
+   }
+}
