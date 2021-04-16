@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b436e3f0.chunk.css",
+    "main.css": "/portfolio/static/css/main.016ce889.chunk.css",
     "main.js": "/portfolio/static/js/main.30ddca7b.chunk.js",
     "main.js.map": "/portfolio/static/js/main.30ddca7b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
@@ -8,7 +8,7 @@
     "static/js/2.68b46dcd.chunk.js": "/portfolio/static/js/2.68b46dcd.chunk.js",
     "static/js/2.68b46dcd.chunk.js.map": "/portfolio/static/js/2.68b46dcd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b436e3f0.chunk.css.map": "/portfolio/static/css/main.b436e3f0.chunk.css.map",
+    "static/css/main.016ce889.chunk.css.map": "/portfolio/static/css/main.016ce889.chunk.css.map",
     "static/js/2.68b46dcd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.68b46dcd.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/portfolio/static/media/bookATable.64cce2e6.png",
     "static/media/planYourMeal.b7c92cdd.png": "/portfolio/static/media/planYourMeal.b7c92cdd.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.68b46dcd.chunk.js",
-    "static/css/main.b436e3f0.chunk.css",
+    "static/css/main.016ce889.chunk.css",
     "static/js/main.30ddca7b.chunk.js"
   ]
 }
