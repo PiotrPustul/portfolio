@@ -12,10 +12,10 @@
       padding: 2.4rem 1.2rem;
 
       a {
-        color: #717cb4;
+        color: $color-heading;
 
         &:hover {
-          color: #89ddff;
+          color: $color-border;
         }
 
         .github {

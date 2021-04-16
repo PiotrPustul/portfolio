@@ -10,10 +10,10 @@ import {
 import ScreenWidthProvider from './Context/ScreenWidthContext';
 import Header from './components/Header/Header';
 import MobileNav from './components/MobileNav/MobileNav';
-import HomePage from './pages/Js/HomePage';
-import AboutPage from './pages/Js/AboutPage';
-import ProjectsPage from './pages/Js/ProjectsPage';
-import ContactPage from './pages/Js/ContactPage';
+import HomePage from './pages/HomePage/HomePage';
+import AboutPage from './pages/AboutPage/AboutPage';
+import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 const App = () => {
 	return (

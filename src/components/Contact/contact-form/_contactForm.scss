@@ -33,15 +33,18 @@
       justify-content: center;
 
       .form__label {
+         color: $color-border;
          font-size: 1.8rem;
+         font-weight: bold;
          margin: 0.7rem 0;
-         color: $color-heading;
       }
 
       .form__input {
          background-color: $color-heading;
          border: 2px solid transparent;
-         font-size: 100%;
+         color: $color-background;
+         font-size: 120%;
+         font-weight: bold;
          outline: none;
          padding: 0.8rem 1.2rem 0.5rem;
       }
@@ -50,8 +53,9 @@
          height: 12rem;
 
          background-color: $color-heading;
-
          border: 2px solid transparent;
+         // color: $color-border;
+         color: $color-background;
          font-size: 120%;
          margin-bottom: 2rem;
          outline: none;

@@ -52,7 +52,8 @@
             height: 60%;
 
             border: 1px solid $color-heading;
-            box-shadow: 5px 1px 15px 1px ($color-heading);
+            border-radius: 1rem;
+            box-shadow: 2px 1px 10px 1px ($color-heading);
 
             background-image: url("../../../static/images/bookATable.png");
             background-size: 100%;
@@ -75,7 +76,7 @@
       }
 
       .project__description-heading {
-         color: $color-border;
+         color: $color-heading;
          font-size: 2.4rem;
          padding: 1.2rem 0;
          text-align: center;
@@ -96,7 +97,7 @@
          @media (min-width: 992px) {
             line-height: 1.5;
             margin-bottom: 1rem;
-            padding: 0 10rem;
+            padding: 0 6rem;
             text-align: center;
          }
       }

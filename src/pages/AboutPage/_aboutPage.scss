@@ -92,7 +92,8 @@
       }
 
       span {
-        color: rgb(255, 85, 85);
+        color: $color-border;
+        font-weight: bold;
       }
     }
   }
