@@ -1,0 +1,60 @@
+.arrow-container,
+.fa-arrow-left,
+.fa-arrow-right {
+   display: none;
+}
+
+@media (min-width: 768px) {
+   .arrow-container {
+      width: 4rem;
+      height: 4rem;
+
+      box-sizing: border-box;
+      color: var(--color-heading);
+      cursor: pointer;
+
+      position: absolute;
+      margin: auto;
+      bottom: 0;
+      z-index: 1;
+
+      display: block;
+   }
+
+   .arrow-container--left {
+      left: 45%;
+   }
+
+   .arrow-container--right {
+      right: 45%;
+   }
+
+   .arrow-img {
+      width: fit-content;
+
+      border-radius: 50%;
+      box-sizing: border-box;
+      font-size: 5rem;
+
+      position: absolute;
+      margin: auto;
+      bottom: 15px;
+      display: block;
+   }
+
+   .fa-arrow-left {
+      right: 50%;
+   }
+
+   .fa-arrow-right {
+      left: 50%;
+   }
+
+   .fa-arrow-left:hover {
+      color: var(--color-border);
+   }
+
+   .fa-arrow-right:hover {
+      color: var(--color-border);
+   }
+}

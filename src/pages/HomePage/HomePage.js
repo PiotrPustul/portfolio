@@ -5,9 +5,11 @@ import { NavLink as Link } from "react-router-dom";
 import Button from '../../components/Button/Button';
 import homeProfile from '../../static/images/profile.png';
 
+import './home-page.css';
+
 const HomePage = () => {
   return (
-    <div className="home wrapper">
+    <div className="home">
 
       <div className="home__context">
         <h1 className="home__heading">

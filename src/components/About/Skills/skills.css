@@ -1,0 +1,102 @@
+.icon-html {
+  color: rgb(220, 74, 37);
+}
+
+.icon-css {
+  color: rgb(37, 75, 221);
+}
+
+.icon-sass {
+  color: rgb(201, 97, 149);
+}
+
+.icon-js {
+  color: rgb(239, 216, 31);
+}
+
+.icon-ts {
+  color: rgb(39, 118, 198);
+}
+
+.icon-react {
+  color: rgb(94, 212, 243);
+}
+
+.icon-redux {
+  color: rgb(114, 71, 182);
+}
+
+.icon-node {
+  color: rgb(97, 179, 73);
+}
+
+.icon-mysql {
+  color: rgb(68, 121, 161);
+}
+
+.icon-nest {
+  color: rgb(234, 40, 69);
+}
+
+.icon-mongo {
+  color: rgb(41, 146, 79);
+}
+
+.skills-icon {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .skills-icon {
+    color: rgb(104, 104, 104);
+    margin: 1rem 0;
+  }
+}
+
+@media(min-width: 1280px) {
+  .icon-html:hover {
+    color: rgb(220, 74, 37);
+  }
+
+  .icon-css:hover {
+    color: rgb(37, 75, 221);
+  }
+
+  .icon-sass:hover {
+    color: rgb(201, 97, 149);
+  }
+
+  .icon-js:hover {
+    color: rgb(239, 216, 31);
+  }
+
+  .icon-ts:hover {
+    color: rgb(39, 118, 198);
+  }
+
+  .icon-react:hover {
+    color: rgb(94, 212, 243);
+  }
+
+  .icon-redux:hover {
+    color: rgb(114, 71, 182);
+  }
+
+  .icon-node:hover {
+    color: rgb(97, 179, 73);
+  }
+
+  .icon-mysql:hover {
+    color: rgb(68, 121, 161);
+  }
+
+  .icon-nest:hover {
+    color: rgb(234, 40, 69);
+  }
+
+  .icon-mongo:hover {
+    color: rgb(41, 146, 79);
+  }
+}

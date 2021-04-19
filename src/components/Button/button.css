@@ -1,0 +1,38 @@
+.link__btn {
+   width: fit-content;
+   height: 40px;
+   background-color: transparent;
+   border: 2px solid var(--color-border);
+   border-radius: 1rem;
+   color: var(--color-border);
+   padding: 0;
+
+   position: relative;
+   z-index: 1;
+}
+
+.link__btn:hover {
+   background-color: var(--color-border);
+   color: var(--color-background);
+   transition: 0.7s ease-in;
+}
+
+.link__btn a {
+   height: 100%;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 1.4rem;
+   padding: 0 10px;
+   text-decoration: none;
+
+   display: flex;
+   align-items: center;
+}
+
+.link__btn--margin-r {
+   margin-right: 1.5rem;
+}
+
+.link__btn--margin-l {
+   margin-left: 1.5rem;
+}

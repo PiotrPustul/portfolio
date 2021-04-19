@@ -1,0 +1,32 @@
+.open-icon,
+.close-icon {
+  width: 3rem;
+  height: 3rem;
+
+  font-size: 3rem;
+  margin: 2.5rem 2.5rem;
+  text-align: center;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.fa-bars {
+  color: var(--color-border);
+}
+
+.fa-times {
+  color: var(--color-border);
+}
+
+@media(min-width : 992px) {
+
+  .open-icon,
+  .close-icon,
+  .fa-bars,
+  .fa-times {
+    display: none;
+  }
+}

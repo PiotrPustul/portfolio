@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Button from '../../Button/Button';
+import './contact-form.css';
 
 const ContactForm = (props) => {
    return (
-      <div className="form">
-         <form onSubmit={props.submit}>
+      <div className="contact-form">
+         <form className="form" onSubmit={props.submit}>
             <label className="form__label ">Name</label>
             <input className="form__input" name="name" type="text" />
 

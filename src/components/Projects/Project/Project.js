@@ -2,6 +2,8 @@ import React from 'react';
 
 import Button from '../../Button/Button';
 
+import './project.css';
+
 const Project = ({ x, img, heading, description, githubLink, liveLink }) => {
    return (
       <div className="project" style={{ transform: `translateX(${x}%)` }}>
@@ -35,7 +37,6 @@ const Project = ({ x, img, heading, description, githubLink, liveLink }) => {
                </Button>
             </div>
          </div>
-
       </div>
    );
 };

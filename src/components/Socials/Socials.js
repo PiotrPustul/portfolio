@@ -4,6 +4,8 @@ import { Icon } from '@iconify/react';
 import githubIcon from '@iconify-icons/cib/github';
 import linkedinIcon from '@iconify-icons/cib/linkedin';
 
+import './socials.css';
+
 const Socials = () => {
   return (
     <div className="socials">

@@ -2,19 +2,20 @@ import React from 'react';
 
 import Backdrop from '../../Backdrop/Backdrop';
 
+import './email-message.css';
+
 const EmailMessage = ({ hideMessage }) => {
    return (
       <Backdrop handleClick={hideMessage}>
          <div className="message">
-            <p className="message__text">
+            <h2 className="message__heading">
                Thank you!
-            </p>
+            </h2>
             <p className="message__text">
-               Your form submission has been received.
+               Your message has been sent.
             </p>
             <button className="message__btn" onClick={hideMessage}>
-               <span className="fas fa-long-arrow-alt-left"></span>
-               <span className="message__btn-hide"> Go back to the site</span>
+               Close
             </button>
          </div>
       </Backdrop>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './contact-description.css';
+
 const ContactDescription = () => {
    return (
       <div className="description">

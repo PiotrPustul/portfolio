@@ -1,0 +1,131 @@
+.light {
+   --color-background: rgb(238, 251, 251);
+   --color-heading: rgb(16, 19, 87);
+   --color-border: rgb(89, 206, 143);
+   --translate: 0px;
+}
+
+.dark {
+   --color-background: rgb(18, 35, 46);
+   --color-heading: rgb(238, 251, 251);
+   --color-border: rgb(77, 168, 218);
+   --translate: 24px;
+
+}
+
+@keyframes slideUp {
+   0% {
+      transform: translateY(300px);
+   }
+
+   100% {
+      transform: translateY(0px);
+   }
+}
+
+@keyframes slideDown {
+   0% {
+      transform: translateY(-300px);
+   }
+
+   100% {
+      transform: translateY(0px);
+   }
+}
+
+@keyframes slideInLeftOne {
+   0% {
+      transform: translateX(-500px) scale(0.2);
+   }
+
+   100% {
+      transform: translateX(0px) scale(1);
+   }
+}
+
+@keyframes slideInLeftTwo {
+   0% {
+      transform: translateX(-1000px);
+   }
+
+   100% {
+      transform: translateX(0px);
+   }
+}
+
+@keyframes slideScale {
+   0% {
+      transform: scale(0.4);
+   }
+
+   100% {
+      transform: scale(1);
+   }
+}
+
+@keyframes slideInRightTwo {
+   0% {
+      transform: translateX(1000px);
+   }
+
+   100% {
+      transform: translateX(0px);
+   }
+}
+
+@keyframes expand {
+   0% {
+      transform: translateX(-1400px);
+   }
+
+   100% {
+      transform: translateX(0px);
+   }
+}
+
+html {
+   box-sizing: border-box;
+   overflow-x: hidden;
+   font-size: 62.5%;
+}
+
+body {
+   font-family: "Times New Roman", Times, serif;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+   -webkit-font-smoothing: antialiased;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+   margin: 0;
+   padding: 0;
+   font-weight: normal;
+   font-size: 1.6rem;
+}
+
+a {
+   color: inherit;
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}

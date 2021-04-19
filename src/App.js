@@ -1,11 +1,7 @@
-import './base/style.scss';
-import './App.scss';
+import React, { useContext } from 'react';
 
-import {
-	HashRouter as Router,
-	Switch,
-	Route
-} from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { ThemeContext } from './Context/ThemeContext';
 
 import ScreenWidthProvider from './Context/ScreenWidthContext';
 import Header from './components/Header/Header';
@@ -15,9 +11,13 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 
+import './App.css';
+
 const App = () => {
+	const { themeState } = useContext(ThemeContext);
+
 	return (
-		<div className="App">
+		<div className={`App ${themeState}`}>
 			<ScreenWidthProvider>
 				<Router>
 					<header>

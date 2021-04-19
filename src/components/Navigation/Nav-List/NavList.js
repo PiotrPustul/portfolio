@@ -1,6 +1,8 @@
 import React from 'react';
 
-import NavItem from './NavItem';
+import NavItem from '../Nav-Item/NavItem';
+
+import './nav-list.css';
 
 const NavList = ({ handleClick }) => {
   return (

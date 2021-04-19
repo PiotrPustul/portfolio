@@ -4,6 +4,8 @@ import myProjects from '../../components/Projects/ProjectsData';
 import ProjectsList from '../../components/Projects/ProjectsList';
 import Arrows from '../../components/Projects/ProjectArrows/Arrows';
 
+import './projects-page.css';
+
 const ProjectsPage = () => {
   const [projects] = useState(myProjects);
   const [x, setX] = useState(0);
