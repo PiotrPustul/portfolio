@@ -1,11 +1,11 @@
-import imgRestaurant from "../../static/images/bookATable.png";
+import imgRestaurant from "../../static/images/restaurant.png";
 import imgPlanner from "../../static/images/planYourMeal.png";
 import imgPortfolio from "../../static/images/portfolio.png";
 
 const myProjects = [
    {
       img: imgRestaurant,
-      heading: "Booking & table view",
+      heading: "The Lockdown",
       description: "The application allows you to book a table in a restaurant, with the additional function of choosing exactly the one that interests us, not counting on luck that the host will choose the best for us.",
       githubLink: "https://github.com/pepe199111/restaurant-reservation/tree/main/restaurant",
       liveLink: "https://pepe199111.github.io/restaurant-reservation/#/",
