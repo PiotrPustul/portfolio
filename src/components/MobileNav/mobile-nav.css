@@ -2,7 +2,6 @@
 .close-icon {
   width: 3rem;
   height: 3rem;
-
   font-size: 3rem;
   margin: 2.5rem 2.5rem;
   text-align: center;
@@ -19,14 +18,4 @@
 
 .fa-times {
   color: var(--color-border);
-}
-
-@media(min-width : 992px) {
-
-  .open-icon,
-  .close-icon,
-  .fa-bars,
-  .fa-times {
-    display: none;
-  }
 }

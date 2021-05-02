@@ -1,6 +1,4 @@
-import React, { useContext } from 'react';
-
-import { ScreenWidthContext } from '../../Context/ScreenWidthContext';
+import React, { useState } from 'react';
 
 import ModeButton from '../Mode-Button/ModeButton';
 import Backdrop from '../Backdrop/Backdrop';
@@ -13,25 +11,17 @@ import './mobile-nav.css';
 import '../Socials/socials.css';
 
 const MobileNav = () => {
-    const { navBtnActive, screenWidth, handleClick } = useContext(ScreenWidthContext);
+    const [navBtnActive, setNavBtnActive] = useState(false);
 
-    const showNavBtn = navBtnActive ?
-        <span className="close-icon fas fa-times" onClick={handleClick} /> :
-        <span className="open-icon fas fa-bars" onClick={handleClick} />;
-
-    const showMobileNav = () => {
-        if (screenWidth < 992) {
-            return showNavBtn;
-        } else {
-            return null
-        }
-    };
-
+    const handleClick = () => setNavBtnActive(prevValue => !prevValue);
     return (
         <>
             <ModeButton />
             <nav className="mobile-nav">
-                {showMobileNav()}
+                {navBtnActive ?
+                    <span className="close-icon fas fa-times" onClick={handleClick} /> :
+                    <span className="open-icon fas fa-bars" onClick={handleClick} />
+                }
                 {navBtnActive &&
                     <Backdrop handleClick={handleClick}>
                         <NavList
