@@ -1,4 +1,5 @@
 import imgRestaurant from "../../static/images/restaurant.png";
+import imgFoodOrder from "../../static/images/food-order.png";
 import imgPlanner from "../../static/images/planYourMeal.png";
 import imgPortfolio from "../../static/images/portfolio.png";
 
@@ -9,6 +10,13 @@ const myProjects = [
       description: "The application allows you to book a table in a restaurant, with the additional function of choosing exactly the one that interests us, not counting on luck that the host will choose the best for us.",
       githubLink: "https://github.com/pepe199111/restaurant-reservation/tree/main/restaurant",
       liveLink: "https://pepe199111.github.io/restaurant-reservation/#/",
+   },
+   {
+      img: imgFoodOrder,
+      heading: "Food order",
+      description: "The app allows you to order food. Features adding products to cart, entering shipping information. Menus and placed orders are retrieved from an external database (Firebase).",
+      githubLink: "https://github.com/pepe199111/food-order",
+      liveLink: "https://food-order-70879.firebaseapp.com/",
    },
    {
       img: imgPlanner,

@@ -7,7 +7,6 @@ import './project.css';
 const Project = ({ x, img, heading, description, githubLink, liveLink }) => {
    return (
       <div className="project" style={{ transform: `translateX(${x}%)` }}>
-
          <div className="project__img-container" >
             <img className="project__img" src={img} alt={heading} />
          </div>
