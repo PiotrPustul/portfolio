@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5f7370b4.chunk.css",
+    "main.css": "/portfolio/static/css/main.3d9deb22.chunk.css",
     "main.js": "/portfolio/static/js/main.eadfa404.chunk.js",
     "main.js.map": "/portfolio/static/js/main.eadfa404.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
@@ -8,9 +8,8 @@
     "static/js/2.bc15121e.chunk.js": "/portfolio/static/js/2.bc15121e.chunk.js",
     "static/js/2.bc15121e.chunk.js.map": "/portfolio/static/js/2.bc15121e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.5f7370b4.chunk.css.map": "/portfolio/static/css/main.5f7370b4.chunk.css.map",
+    "static/css/main.3d9deb22.chunk.css.map": "/portfolio/static/css/main.3d9deb22.chunk.css.map",
     "static/js/2.bc15121e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bc15121e.chunk.js.LICENSE.txt",
-    "static/media/project.css": "/portfolio/static/media/bookATable.64cce2e6.png",
     "static/media/food-order.6f5f3910.png": "/portfolio/static/media/food-order.6f5f3910.png",
     "static/media/planYourMeal.ee6029e4.png": "/portfolio/static/media/planYourMeal.ee6029e4.png",
     "static/media/portfolio.3791f493.png": "/portfolio/static/media/portfolio.3791f493.png",
@@ -21,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.bc15121e.chunk.js",
-    "static/css/main.5f7370b4.chunk.css",
+    "static/css/main.3d9deb22.chunk.css",
     "static/js/main.eadfa404.chunk.js"
   ]
 }
