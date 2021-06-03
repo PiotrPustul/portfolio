@@ -2,6 +2,7 @@ import imgRestaurant from "../../static/images/restaurant.png";
 import imgFoodOrder from "../../static/images/food-order.png";
 import imgPlanner from "../../static/images/planYourMeal.png";
 import imgPortfolio from "../../static/images/portfolio.png";
+import imgQuotes from "../../static/images/quotes.png";
 
 const myProjects = [
    {
@@ -17,6 +18,13 @@ const myProjects = [
       description: "The app allows you to order food. Features adding products to cart, entering shipping information. Menus and placed orders are retrieved from an external database (Firebase).",
       githubLink: "https://github.com/pepe199111/food-order",
       liveLink: "https://food-order-70879.firebaseapp.com/",
+   },
+   {
+      img: imgQuotes,
+      heading: "Quotes - React Router",
+      description: "A react router was used in the project.It allows you to add your favourite quotes, which can be commented on by other users. Quotes and comments are retrieved from an external database (Firebase).",
+      githubLink: "https://github.com/pepe199111/quotes-react-router",
+      liveLink: "https://quotes-app-6b158.web.app/quotes",
    },
    {
       img: imgPlanner,
