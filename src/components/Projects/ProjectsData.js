@@ -24,7 +24,7 @@ const myProjects = [
       heading: "Quotes - React Router",
       description: "A react router was used in the project.It allows you to add your favourite quotes, which can be commented on by other users. Quotes and comments are retrieved from an external database (Firebase).",
       githubLink: "https://github.com/pepe199111/quotes-react-router",
-      liveLink: "https://quotes-app-6b158.web.app/quotes",
+      liveLink: "https://quotes-react-router.web.app/quotes",
    },
    {
       img: imgPlanner,
