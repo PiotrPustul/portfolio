@@ -1,4 +1,4 @@
-import imgRestaurant from "../../static/images/restaurant.png";
+import imgRestaurant from "../../static/images/restaurant.jpg";
 import imgFoodOrder from "../../static/images/food-order.png";
 import imgPlanner from "../../static/images/planYourMeal.png";
 import imgPortfolio from "../../static/images/portfolio.png";
