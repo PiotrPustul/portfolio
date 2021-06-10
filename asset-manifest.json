@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3d9deb22.chunk.css",
-    "main.js": "/portfolio/static/js/main.2c70ffb8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2c70ffb8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e253a1fc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e253a1fc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/js/2.bc15121e.chunk.js": "/portfolio/static/js/2.bc15121e.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.3d9deb22.chunk.css.map": "/portfolio/static/css/main.3d9deb22.chunk.css.map",
     "static/js/2.bc15121e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bc15121e.chunk.js.LICENSE.txt",
+    "static/media/auth.96a03b95.png": "/portfolio/static/media/auth.96a03b95.png",
     "static/media/food-order.6f5f3910.png": "/portfolio/static/media/food-order.6f5f3910.png",
     "static/media/planYourMeal.ee6029e4.png": "/portfolio/static/media/planYourMeal.ee6029e4.png",
     "static/media/portfolio.3791f493.png": "/portfolio/static/media/portfolio.3791f493.png",
@@ -21,6 +22,6 @@
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.bc15121e.chunk.js",
     "static/css/main.3d9deb22.chunk.css",
-    "static/js/main.2c70ffb8.chunk.js"
+    "static/js/main.e253a1fc.chunk.js"
   ]
 }
