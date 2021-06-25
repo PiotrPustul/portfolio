@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { BreakpointProvider } from 'react-socks';
 
 import { HashRouter as Router, Switch, Route } from "react-router-dom";

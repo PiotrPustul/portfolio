@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Icon } from '@iconify/react';
 import html5Icon from '@iconify-icons/cib/html5';
 import css3Icon from '@iconify-icons/cib/css3';
@@ -36,8 +34,7 @@ const Skills = () => {
 
       <div className="about__backend-section">
         <p className="about__paragraph">
-          I am constantly learning new technologies and I never limit myself to one solution, that's why I took courses on the Udemy platform, where I learned the basics of the backend.
-        </p>
+          Continuous personal development, improving coding and design skills are my main goals. I never limit myself to one solution, so I've been learning the basics of the backend for a while.</p>
         <div className="about__logos-wrapper">
           <Icon className="skills-icon icon-node" icon={nodeIcon} />
           <Icon className="skills-icon icon-mysql" icon={mysqlIcon} />
