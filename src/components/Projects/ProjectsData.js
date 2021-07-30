@@ -3,7 +3,7 @@ import imgFoodOrder from "../../static/images/food-order.png";
 import imgPlanner from "../../static/images/planYourMeal.png";
 import imgPortfolio from "../../static/images/portfolio.png";
 import imgQuotes from "../../static/images/quotes.png";
-import imgAuth from "../../static/images/auth.png";
+import imgPHP from "../../static/images/php.png";
 
 const myProjects = [
    {
@@ -21,11 +21,11 @@ const myProjects = [
       liveLink: "https://pepe199111.github.io/portfolio/#/",
    },
    {
-      img: imgAuth,
-      heading: "Authentication",
-      description: "The authentication project allows user to create an account, firebase is used to store user data. Once logged in, the user is granted access to the rest of the site, where the user can change its password in the user panel.",
-      githubLink: "https://github.com/pepe199111/authentication-project",
-      liveLink: "https://auth-project-react-fb605.web.app/",
+      img: imgPHP,
+      heading: "My Notes with PHP",
+      description: "My notes project was written using pure PHP. Realized based on MVC and CRUD architecture. All notes are saved and retrieved from an external MySQL database (Remotemysql).",
+      githubLink: "https://github.com/pepe199111/PHP-my-notes",
+      liveLink: "https://php-my-notes.herokuapp.com/",
    },
    {
       img: imgFoodOrder,

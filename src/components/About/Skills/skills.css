@@ -42,6 +42,10 @@
   color: rgb(41, 146, 79);
 }
 
+.icon-php {
+  color: rgb(137, 146, 190);
+}
+
 .skills-icon {
   width: 3rem;
   height: 3rem;
@@ -98,5 +102,9 @@
 
   .icon-mongo:hover {
     color: rgb(41, 146, 79);
+  }
+
+  .icon-php:hover {
+    color: rgb(137, 146, 190);
   }
 }

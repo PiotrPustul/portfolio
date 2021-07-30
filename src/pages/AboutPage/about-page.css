@@ -33,6 +33,11 @@
   font-weight: bold;
 }
 
+.about__paragraph p {
+  margin-left: 1rem;
+  display: inline;
+}
+
 .about__frontend-section,
 .about__backend-section {
   width: 100%;
@@ -56,6 +61,10 @@
 
   .about__paragraph {
     line-height: 1.5;
+  }
+
+  .about__paragraph p {
+    font-size: 1.8rem;
   }
 }
 

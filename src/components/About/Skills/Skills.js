@@ -10,6 +10,8 @@ import nodeIcon from '@iconify-icons/fa-brands/node';
 import mysqlIcon from '@iconify-icons/grommet-icons/mysql';
 import nestjsIcon from '@iconify-icons/simple-icons/nestjs';
 import mongodbIcon from '@iconify-icons/cib/mongodb';
+import phpIcon from '@iconify-icons/fontisto/php';
+
 
 import './skills.css'
 
@@ -34,12 +36,14 @@ const Skills = () => {
 
       <div className="about__backend-section">
         <p className="about__paragraph">
-          Continuous personal development, improving coding and design skills are my main goals. I never limit myself to one solution, so I've been learning the basics of the backend for a while.</p>
+          Continuous personal development, improving coding and design skills are my main goals. I never limit myself to one solution, so I've been learning the basics of the backend for a while, including PHP, NodeJS, MySQL, Express, MongoDB, NestJS. To become a Full Stack Developer in the future.
+        </p>
         <div className="about__logos-wrapper">
+          <Icon className="skills-icon icon-php" icon={phpIcon} />
           <Icon className="skills-icon icon-node" icon={nodeIcon} />
           <Icon className="skills-icon icon-mysql" icon={mysqlIcon} />
-          <Icon className="skills-icon icon-nest" icon={nestjsIcon} />
           <Icon className="skills-icon icon-mongo" icon={mongodbIcon} />
+          <Icon className="skills-icon icon-nest" icon={nestjsIcon} />
         </div>
       </div>
     </div>
