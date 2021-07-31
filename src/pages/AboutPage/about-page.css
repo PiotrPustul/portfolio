@@ -125,6 +125,10 @@
     font-size: 1.8rem;
     margin-bottom: 2.4rem;
   }
+
+  .about__logos-wrapper {
+    width: 90%;
+  }
 }
 
 @media (min-width: 1200px) {
